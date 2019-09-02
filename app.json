@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/product/product",
+    "pages/cart/cart",
+    "pages/person/person"
+  ],
+  "window": {
+    "backgroundTextStyle": "#fff",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "iLaiY箱包",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#464646",
+    "selectedColor": "#f00",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "pages/img/tab1.png",
+        "selectedIconPath": "pages/img/tab01.png"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "分类",
+        "iconPath": "pages/img/tab2.png",
+        "selectedIconPath": "pages/img/tab02.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "pages/img/tab3.png",
+        "selectedIconPath": "pages/img/tab03.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人中心",
+        "iconPath": "pages/img/tab4.png",
+        "selectedIconPath": "pages/img/tab04.png"
+      }
+    ]
+  }
+}
